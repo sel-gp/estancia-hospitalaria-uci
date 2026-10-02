@@ -1,0 +1,26 @@
+# Ruta local a MIMIC-IV
+.mimic_path
+
+# Datos generados
+data/interim/*
+data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Resultados generados
+results/*
+!results/.gitkeep
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Entornos
+.venv/
+venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
